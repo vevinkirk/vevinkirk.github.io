@@ -4,7 +4,7 @@ title: Arch Linux Install: Standalone
 subtitle: Install Arch Linux on a standalone system
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
-tags: [test]
+tags: [arch,install,linux,tutorial]
 comments: true
 ---
 Arch linux install:
