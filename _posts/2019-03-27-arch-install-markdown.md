@@ -5,7 +5,7 @@ subtitle: Install Arch Linux on a standalone system
 tags: [arch,install,linux,tutorial]
 comments: true
 ---
-# Arch linux install
+
 You should always follow the install located at the [Arch wiki](https://wiki.archlinux.org/index.php/installation_guide) but if for some reason you are havingtrouble I hope this tutorial can help in some way.
 ## Table of Contents
 * [Arch Linux Install](#Arch-Linux-Install)
