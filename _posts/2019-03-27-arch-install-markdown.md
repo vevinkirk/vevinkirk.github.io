@@ -12,9 +12,14 @@ You should always follow the install located at the [Arch wiki](https://wiki.arc
 ## Table of Contents
 * [Arch Linux Install](#Arch-Linux-Install)
   * [Standalone Install](#Standalone-Install)
+   *[Installing Arch](#Installing-Arch)
 
 
 ## Standalone Install
 ### First Step: Prep the install media
-Prep the install media anyway you would prefer. I will not go over this in detail as there are many tutorials out there that already cover this. You will need to download the Arch ISO and use a bootable usb or cd if you prefer.
+Prep the install media anyway you would prefer. I will not go over this in detail as there are many tutorials out there that already cover this. You will need to download the Arch ISO and use a bootable usb or cd if you prefer. 
 
+### Installing Arch
+With the USB plugged into the computer boot up your computer. **NOTE**:Make sure your boot sequence includes the USB first if you already have another Operating system on the computer. If you are having trouble most computers have a select boot sequence during the initial bios splashscreen and you should be able to select the USB.**ENDNOTE**
+
+You should be presented with the Arch live install which should look like this:
