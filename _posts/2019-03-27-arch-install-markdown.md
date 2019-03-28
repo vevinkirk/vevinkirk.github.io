@@ -7,7 +7,7 @@ gh-badge: [star, fork, follow]
 tags: [arch,install,linux,tutorial]
 comments: true
 ---
-Arch linux install:
+# Arch linux install
 You should always follow the install located at the [Arch wiki](https://wiki.archlinux.org/index.php/installation_guide) but if for some reason you are havingtrouble I hope this tutorial can help in some way.
 
 ## First Step: Prep the install media
