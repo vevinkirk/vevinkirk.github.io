@@ -24,9 +24,7 @@ Prep the install media anyway you would prefer. I will not go over this in detai
 With the USB plugged into the computer boot up your computer.
 
 **NOTE**:
-
 Make sure your boot sequence includes the USB first if you already have another Operating system on the computer. If you are having trouble most computers have a select boot sequence during the initial bios splashscreen and you should be able to select the USB.
-
 **ENDNOTE**
 ```
 You should be presented with the Arch live install which should look like this:
@@ -41,9 +39,7 @@ This is the live install session to Install Arch Linux:
 You will need to have a internet connection to install some packages. You can use an ethernet port or you can use wifi.
 
 **NOTE** 
-
 In some circumstances your wifi drivers may not work out of the box with the install. In this instance use ethernet or a usb -> ethernet adapter
-
 **ENDNOTE**
 
 To connect via wifi simply run:
