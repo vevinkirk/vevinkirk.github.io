@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Arch Linux Install
+title: Test Markdown
 subtitle: Each post also has a subtitle
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
