@@ -12,8 +12,8 @@ You should always follow the install located at the [Arch wiki](https://wiki.arc
 ## Table of Contents
 * [Arch Linux Install](#Arch-Linux-Install)
   * [Standalone Install](#Standalone-Install)
-   *[Installing Arch](#Installing-Arch)
-    *[Internet Setup](#Internet-Setup)
+   * [Installing Arch](#Installing-Arch)
+    * [Internet Setup](#Internet-Setup)
 
 
 ## Standalone Install
