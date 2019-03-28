@@ -1,8 +1,10 @@
----
+--
 layout: post
-title: Arch Linux Install: Standalone
-subtitle: Install Arch Linux on a standalone system
-tags: [arch,install,linux,tutorial]
+title: Test markdown
+subtitle: Each post also has a subtitle
+gh-repo: daattali/beautiful-jekyll
+gh-badge: [star, fork, follow]
+tags: [test]
 comments: true
 ---
 
