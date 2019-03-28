@@ -44,6 +44,23 @@ In some circumstances your wifi drivers may not work out of the box with the ins
 **ENDNOTE**
 
 To connect via wifi simply run:
+
 ``` root@archiso ~ # wifi-menu```
+
+To connect via ethernet run:
+
+```dhpcd```
+
+Test your internet conncection by pinging a website:
+
+```ping -c 4 www.google.com```
+ 
+If your connection is working you should be getting packets back
+
+#### System Clocl
+
+Set the system clock by running the following command
+
+```timedatectl set-ntp true```
 
 
