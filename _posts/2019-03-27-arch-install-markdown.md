@@ -6,9 +6,9 @@ tags: [linux,tutorial,install,arch,dual boot,windows]
 comments: true
 ---
 
-## Arch Linux Install
+Learn how to install Arch Linux on your own computer in either a standalone system or in a dual boot system. Also install some packages and also a windows manager
 
-You can write regular [markdown](http://markdowntutorial.com/) here and Jekyll will automatically convert it to a nice webpage.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](http://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+## Arch Linux Install
 
 You should always follow the install located at the [Arch wiki](https://wiki.archlinux.org/index.php/installation_guide) but if for some reason you are havingtrouble I hope this tutorial can help in some way.
 ## Table of Contents
