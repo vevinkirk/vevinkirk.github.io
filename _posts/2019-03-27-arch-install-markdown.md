@@ -73,5 +73,5 @@ Your harddrive should be named something like /dev/sda or it may be another lett
 
 You can then partition your disks with the tool ```cfdisk /dev/sda```
 
-![archbootpartition](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
+![archbootpartition](https://s3-us-west-2.amazonaws.com/kevinblogpictures/archbootpartition.png)
 
