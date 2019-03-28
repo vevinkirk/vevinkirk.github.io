@@ -57,10 +57,16 @@ Test your internet conncection by pinging a website:
  
 If your connection is working you should be getting packets back
 
-#### System Clocl
+#### System Clock
 
 Set the system clock by running the following command
 
 ```timedatectl set-ntp true```
 
+#### Partition Disks
+We will need to partition the disks in order to properly install Arch Linux.
+Check your current disk setup with ```fdisk -l```
 
+Your harddrive should be named something like /dev/sda or it may be another letter if you have mutliple hardrives.
+
+You can then partition your disks with the tool ```cfdisk /dev/sda```
