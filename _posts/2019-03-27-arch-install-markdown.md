@@ -70,3 +70,5 @@ Check your current disk setup with ```fdisk -l```
 Your harddrive should be named something like /dev/sda or it may be another letter if you have mutliple hardrives.
 
 You can then partition your disks with the tool ```cfdisk /dev/sda```
+![cfdisk](Images/cfdisk.png)
+
