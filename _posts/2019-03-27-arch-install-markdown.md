@@ -16,6 +16,8 @@ You should always follow the install located at the [Arch wiki](https://wiki.arc
   * [Standalone Install](#Standalone-Install)
   * [Installing Arch](#Installing-Arch)
   * [Internet Setup](#Internet-Setup)
+  * [System Clock](#System-Clock)
+  * [Disk Partition](#Disk-Partition)
 
 
 ## Standalone Install
@@ -65,7 +67,7 @@ Set the system clock by running the following command
 
 ```timedatectl set-ntp true```
 
-#### Partition Disks
+#### Disk Partition
 We will need to partition the disks in order to properly install Arch Linux.
 Check your current disk setup with ```fdisk -l```
 
@@ -83,6 +85,26 @@ Go ahead and use the rest of the space for your install. We will split it up lat
 
 You can now write the changes to disk and quit afterwards. Make sure to check your setup by running the ```fdisk -l``` command. Your setup should look similar to this.
 ![checkdisksetup.png](https://s3-us-west-2.amazonaws.com/kevinblogpictures/checkdisksetup.png)
+
+#### Drive Encryption & LVM
+
+We are going to encrypt our harddrive and add a passcode to unlock the drive as a secure measure during bootup. We are not encrypting the boot drive so make sure to select the correct partition number. For me that was ```/dev/sda2```.
+
+You can run ```cryptsetup benchmark ``` to check sppeds on different ciphers and key-sizes for your encryption.
+
+We are going to run the below command to encrypt our drive.
+
+```
+cryptsetup --cipher aes-xts-plain64 \
+--key-size 512 \
+--hash sha256 \
+--iter-time 3000 
+--use-random \
+--verify-passphrase \
+luksFormat /dev/sda2
+```
+
+
 
 
 
