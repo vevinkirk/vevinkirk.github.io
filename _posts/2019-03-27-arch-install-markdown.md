@@ -188,17 +188,17 @@ For UUID fstab you can run
 ```genfstab -U /mnt >> /mnt/etc/fstab```
 
 Make sure to check the generated fstab for any errors, mine looked like this:
-```
-#
-# /etc/fstab: static file system information
-#
-# <file system>    <dir><type><options>             <dump><pass>
-# /dev/mapper/arch-root
-/dev/mapper/arch-root    /           ext4   discard,rw,relatime,data=ordered    0 1
 
-# /dev/mapper/arch-home
-/dev/mapper/arch-home    /home       ext4   discard,rw,relatime,data=ordered    0 2
-```
+```#```
+```# /etc/fstab: static file system information```
+```#```
+```# <file system>    <dir><type><options>             <dump><pass>```
+```# /dev/mapper/arch-root```
+```/dev/mapper/arch-root    /           ext4   discard,rw,relatime,data=ordered    0 1```
+``` ```
+```# /dev/mapper/arch-home```
+```/dev/mapper/arch-home    /home       ext4   discard,rw,relatime,data=ordered    0 2```
+
 
 **Note**:If using solid state drive make sure discard is there in the options for optimizing the speed of SSD's**ENDNOTE**
 
@@ -215,10 +215,9 @@ Set the time zone: ```# ln -sf /usr/share/zoneinfo/Region/City /etc/localtime```
 #### Localization
 
 Uncomment the locale that you would like to use in the file /etc/locale.gen .I am located in the US so I am going to use these
-```
-en_US.UTF-8 UTF-8
-en_US ISO-8859-1
-```
+
+```en_US.UTF-8 UTF-8```
+```en_US ISO-8859-1```
  Generate the locale: ```locale-gen```
  
  Set Default: ```echo LANG=en_US.UTF-8 > /etc/locale.conf```
