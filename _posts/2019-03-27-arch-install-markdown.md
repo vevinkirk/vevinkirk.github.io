@@ -160,6 +160,7 @@ You can select mirrors if you would like, delete or comment out the mirrors you 
 
 ```vi /etc/pacman.d/mirrorlist```
 
+Arch has a conveinant mirror list generator that comes in handy: ![mirror list](https://www.archlinux.org/mirrorlist/)
 #### Install Base system
 
 Install Arch Linux:
@@ -182,7 +183,17 @@ For UUID fstab you can run
 ```genfstab -U /mnt >> /mnt/etc/fstab```
 
 Make sure to check the generated fstab for any errors, mine looked like this:
+```
+#
+# /etc/fstab: static file system information
+#
+# <file system>    <dir><type><options>             <dump><pass>
+# /dev/mapper/arch-root
+/dev/mapper/arch-root    /           ext4   discard,rw,relatime,data=ordered    0 1
 
+# /dev/mapper/arch-home
+/dev/mapper/arch-home    /home       ext4   discard,rw,relatime,data=ordered    0 2
+```
 
 
 
