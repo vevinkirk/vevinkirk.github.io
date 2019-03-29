@@ -95,15 +95,14 @@ You can run ```cryptsetup benchmark ``` to check sppeds on different ciphers and
 
 We are going to run the below command to encrypt our drive.
 
-```
-cryptsetup --cipher aes-xts-plain64 \
---key-size 512 \
---hash sha256 \
---iter-time 3000 
---use-random \
---verify-passphrase \
-luksFormat /dev/sda2
-```
+```cryptsetup --cipher aes-xts-plain64 \```
+```--key-size 512 \```
+```--hash sha256 \```
+```--iter-time 3000 ```
+```--use-random \```
+```--verify-passphrase \```
+```luksFormat /dev/sda2```
+
 
 Type the uppercase YES and choose a good passphrase and enter it in twice.
 
