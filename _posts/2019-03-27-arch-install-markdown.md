@@ -75,3 +75,5 @@ You can then partition your disks with the tool ```cfdisk /dev/sda```
 
 ![archbootpartition](https://s3-us-west-2.amazonaws.com/kevinblogpictures/archbootpartition.png)
 
+Create a boot partition sized 500M and with the type ```EFI system```
+![bootsizetype](https://s3-us-west-2.amazonaws.com/kevinblogpictures/bootsizetype.png)
