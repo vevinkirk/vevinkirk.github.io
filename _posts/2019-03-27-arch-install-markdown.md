@@ -19,6 +19,8 @@ You should always follow the install located at the [Arch wiki](https://wiki.arc
   * [System Clock](#System-Clock)
   * [Disk Partition](#Disk-Partition)
   * [Drive Encryption and LVM](Drive-Encryption-and-LVM)
+  * [Mirrors](#Mirrors)
+  * [Install Base System](#Install Base-System)
 
 
 ## Standalone Install
@@ -166,9 +168,20 @@ Install Arch Linux:
 
 You can install with additional packages in this command if you would like. The live CD has more packages than the base install comes with. You can find all the packages in the live CD ![here](https://git.archlinux.org/archiso.git/tree/configs/releng/packages.x86_64)
 
-Example:
+**Example**:
 ```pacstrap -i /mnt base base-devel dialog wpa_supplicant wireless_tools```
 
+#### Generate fstab
+
+We will use labels for our disks because the encryption will create random IDs
+
+```genfstab -L -p /mnt >> /mnt/etc/fstab```
+
+For UUID fstab you can run
+
+```genfstab -U /mnt >> /mnt/etc/fstab```
+
+Make sure to check the generated fstab for any errors, mine looked like this:
 
 
 
