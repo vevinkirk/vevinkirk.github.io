@@ -146,8 +146,29 @@ Also boot the mount partition after formatting it to ```ext.2```
 
 ```mount /dev/sda1 /mnt/boot```
 
+To read more about the encryption I used you can find that here : [Encryption](https://wiki.archlinux.org/index.php/Dm-crypt/Device_encryption#Encryption_options_for_LUKS_mode)
 
+Some installs will require a swap partition but with enough RAM 16GB or so you should be fine without it.
+If you do want to read more about the partition schemes you can find that here : [Partition](https://wiki.archlinux.org/index.php/Installation_guide#Partition_the_disks)
 
+We are now ready to install Arch Linux to the disk
+
+#### Mirrors
+
+You can select mirrors if you would like, delete or comment out the mirrors you do not want to use:
+
+```vi /etc/pacman.d/mirrorlist```
+
+#### Install Base system
+
+Install Arch Linux:
+
+```pacstrap -i /mnt base base-devel```
+
+You can install with additional packages in this command if you would like. The live CD has more packages than the base install comes with. You can find all the packages in the live CD ![here](https://git.archlinux.org/archiso.git/tree/configs/releng/packages.x86_64)
+
+Example:
+```pacstrap -i /mnt base base-devel dialog wpa_supplicant wireless_tools```
 
 
 
