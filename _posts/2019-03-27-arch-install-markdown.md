@@ -18,6 +18,7 @@ You should always follow the install located at the [Arch wiki](https://wiki.arc
   * [Internet Setup](#Internet-Setup)
   * [System Clock](#System-Clock)
   * [Disk Partition](#Disk-Partition)
+  * [Drive Encryption and LVM](Drive-Encryption-and-LVM)
 
 
 ## Standalone Install
@@ -86,7 +87,7 @@ Go ahead and use the rest of the space for your install. We will split it up lat
 You can now write the changes to disk and quit afterwards. Make sure to check your setup by running the ```fdisk -l``` command. Your setup should look similar to this.
 ![checkdisksetup.png](https://s3-us-west-2.amazonaws.com/kevinblogpictures/checkdisksetup.png)
 
-#### Drive Encryption & LVM
+#### Drive Encryption and LVM
 
 We are going to encrypt our harddrive and add a passcode to unlock the drive as a secure measure during bootup. We are not encrypting the boot drive so make sure to select the correct partition number. For me that was ```/dev/sda2```.
 
@@ -103,6 +104,48 @@ cryptsetup --cipher aes-xts-plain64 \
 --verify-passphrase \
 luksFormat /dev/sda2
 ```
+
+Type the uppercase YES and choose a good passphrase and enter it in twice.
+
+Next time to setup the LVM with the volumes and filesystems.
+
+open the encrypted partition with the following command ```cryptsetup luksOpen /dev/sda2 lvm```
+
+What this command does is map the encrypted partition to the file location ```/dev/mapper```
+The next step is to create physical and logical volumes for the ```root``` and ```home``` directories. I gave the ```root``` directory here ```20GB``` but you can choose to do whatever you think will be sufficient for you.
+
+Physical Volume :```pvcreate /dev/mapper/lvm```
+
+Create Volume with name ```arch``` you can choose to name it whatever you would like: ```vgcreate arch /dev/mapper/lvm```
+
+Create Logical Volumes ```20GB``` for the ```root``` and the rest allocated for ```home```:
+
+```lvcreate --size 20G --name root arch```
+
+```lvcreate --extents +100%FREE --name home arch```
+
+The partitions created are now in ```/dev/mapper/arch-root``` and ```/dev/mapper/arch-home```. We will need to format them to a particular file system. Here I will use the ```ext4``` filesystem.
+
+```mkfs.ext4 /dev/mapper/arch-root```
+
+```mkfs.ext4 /dev/mapper/arch-home```
+
+Now mount those partitions
+
+```mount /dev/mapper/arch-root /mnt```
+
+```mkdir -p /mnt/home```
+
+```mount /dev/mapper/arch-home /mnt/home```
+
+Also boot the mount partition after formatting it to ```ext.2```
+
+```mkfs.ext2 /dev/sda1```
+
+```mkdir -p /mnt/boot```
+
+```mount /dev/sda1 /mnt/boot```
+
 
 
 
