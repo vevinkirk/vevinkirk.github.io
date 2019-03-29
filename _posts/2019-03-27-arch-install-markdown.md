@@ -75,5 +75,19 @@ You can then partition your disks with the tool ```cfdisk /dev/sda```
 
 ![archbootpartition](https://s3-us-west-2.amazonaws.com/kevinblogpictures/archbootpartition.png)
 
-Create a boot partition sized 500M and with the type ```EFI system```
+Create a boot partition sized ```500M``` and with the type ```EFI system```
 ![bootsizetype](https://s3-us-west-2.amazonaws.com/kevinblogpictures/bootsizetype.png)
+
+Go ahead and use the rest of the space for your install. We will split it up later into ```root``` and ```home``` partitions later. Choose the type Linux filesystem
+![rootpartition.png](https://s3-us-west-2.amazonaws.com/kevinblogpictures/rootpartition.png)
+
+You can now write the changes to disk and quit afterwards. Make sure to check your setup by running the ```fdisk -l``` command. Your setup should look similar to this.
+![checkdisksetup.png](https://s3-us-west-2.amazonaws.com/kevinblogpictures/checkdisksetup.png)
+
+
+
+
+
+
+
+
