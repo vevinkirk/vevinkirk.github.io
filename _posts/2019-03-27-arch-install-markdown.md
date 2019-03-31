@@ -229,6 +229,20 @@ Uncomment the locale that you would like to use in the file /etc/locale.gen .I a
  Set Default: ```echo LANG=en_US.UTF-8 > /etc/locale.conf```
 
 #### Network Config
+```echo hostname > /etc/hostname```
+
+Add hostname to ```/etc/hosts```
+
+```
+#
+# /etc/hosts: static lookup table for host names
+#
+
+#<ip-address>   <hostname.domain.org>   <hostname>
+127.0.0.1   localhost.localdomain   localhost   macbook
+::1     localhost.localdomain   localhost   macbook
+```
+
 We need to add kernel modules to make sure the kernel knows how to decrypt our partition. Edit your ```/etc/mkinitcpio.conf``` and add the modules **BEFORE** filesystems in the HOOKS line.
 
 ```HOOKS="base udev autodetect modconf block keyboard usbinput encrypt lvm2 filesystems fsck"```
