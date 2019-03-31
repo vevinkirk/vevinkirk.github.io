@@ -330,6 +330,8 @@ The bootloader should be presented with the option Arch Linux and 3 seconds befo
 
 #### Configuring Arch
 
+Lets Customize Arch for our liking
+
 
 
 
