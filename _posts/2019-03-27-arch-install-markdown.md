@@ -250,6 +250,8 @@ If you have a static IP you can put that in place of 127.0.0.1
 
 Use this link to learn more about network configuration in Arch linux [Network Config](https://wiki.archlinux.org/index.php/Network_configuration)
 
+#### Initramfs
+
 We need to add kernel modules to make sure the kernel knows how to decrypt our partition. Edit your ```/etc/mkinitcpio.conf``` and add the modules **BEFORE** filesystems in the HOOKS line.
 
 ```HOOKS="base udev autodetect modconf block keyboard usbinput encrypt lvm2 filesystems fsck"```
@@ -258,7 +260,46 @@ Then run
 
 ```mkinitcpio -p linux```
 
-Set
+#### Root Passwd
+
+Set the root passwd with the command ```passwd```
+
+#### Create User
+
+Create a new non root user.
+
+```useradd --create-home --groups wheel --shell /bin/bash USER```
+```passwd USER```
+
+This adds user to the wheel group. We will need to run the command ```visudo```
+And uncomment the following line:
+
+```%wheel ALL=(ALL) ALL```
+
+# Bootloader
+
+We will go over a couple boot loaders here. I have been using systemd and grub. There are many out there. This chart from the official wiki is useful when looking at chooing an option [bootloaders](https://wiki.archlinux.org/index.php/Arch_boot_process#Boot_loader).
+
+Run the command ```pacman -S systemd ``` to install the systemd bootloader. Then run the command ```mkdir -p /boot/loader/entries```
+
+Setup the loader to default to Arch and set the number of seconds before auto boot. Do this in the file ```/boot/loader/loader.conf``` 
+
+```default arch```
+
+```timeout 3```
+
+Make sure the boot partition is currently mounted. ```findmnt /boot```
+
+We have to create an entry for the bootloader in the file ```/boot/loader/entries/arch.conf```
+
+```# /boot/loader/entries/arch.conf```
+```title   Arch Linux```
+```linux   /vmlinuz-linux```
+```initrd  /initramfs-linux.img```
+```options cryptdevice=/dev/sda2:arch:allow-discards root=/dev/mapper/arch-root rw```
+
+
+
 
 
 
