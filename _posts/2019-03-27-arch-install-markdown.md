@@ -10,7 +10,7 @@ Learn how to install Arch Linux on your own computer in either a standalone syst
 
 ## How to Install Arch Linux Install
 
-You should always follow the install located at the [Arch wiki](https://wiki.archlinux.org/index.php/installation_guide) but if for some reason you are havingtrouble I hope this tutorial can help in some way.
+You should always follow the install located at the [Arch wiki](https://wiki.archlinux.org/index.php/installation_guide) but if for some reason you are having trouble I hope this tutorial can help in some way.
 ## Table of Contents
 * [How to Install Arch Linux](#How-to-Install-Arch-Linux)
   * [Standalone Install](#Standalone-Install)
