@@ -26,6 +26,13 @@ You should always follow the install located at the [Arch wiki](https://wiki.arc
   * [Time Zone](#Time-Zone)
   * [Localization](#Localization)
   * [Network Config](#Network-Config)
+  * [Initramfs](#Initramfs)
+  * [Root Passwd](#Root-Passwd)
+  * [Create User](#Create-User)
+  * [Bootloader](#Bootloader)
+  * [Reboot](#Reboot)
+  * [Configuring Arch](#Configuring-Arch)
+  
 
 
 ## Standalone Install
@@ -276,7 +283,7 @@ And uncomment the following line:
 
 ```%wheel ALL=(ALL) ALL```
 
-# Bootloader
+#### Bootloader
 
 We will go over a couple boot loaders here. I have been using systemd and grub. There are many out there. This chart from the official wiki is useful when looking at chooing an option [bootloaders](https://wiki.archlinux.org/index.php/Arch_boot_process#Boot_loader).
 
@@ -304,7 +311,7 @@ We have to create an entry for the bootloader in the file ```/boot/loader/entrie
 
 Then run the command ```bootctl install```
 
-#### Reboot Into Install
+#### Reboot
 
 **NOTE** If you didnt install the networking drivers for wifi on reboot into the new install you will not have wifi access as you did in the live cd **ENDNOTE**
 
