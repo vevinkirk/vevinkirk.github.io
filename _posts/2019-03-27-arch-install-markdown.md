@@ -246,6 +246,9 @@ Add hostname to ```/etc/hosts```
 
 ```::1     localhost.localdomain   localhost   macbook```
 
+If you have a static IP you can put that in place of 127.0.0.1 
+
+Use this link to learn more about network configuration in Arch linux [Network Config](https://wiki.archlinux.org/index.php/Network_configuration)
 
 We need to add kernel modules to make sure the kernel knows how to decrypt our partition. Edit your ```/etc/mkinitcpio.conf``` and add the modules **BEFORE** filesystems in the HOOKS line.
 
