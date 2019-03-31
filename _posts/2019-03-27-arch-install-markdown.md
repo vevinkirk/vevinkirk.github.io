@@ -19,7 +19,7 @@ You should always follow the install located at the [Arch wiki](https://wiki.arc
   * [Internet Setup](#Internet-Setup)
   * [System Clock](#System-Clock)
   * [Disk Partition](#Disk-Partition)
-  * [Drive Encryption and LVM](Drive-Encryption-and-LVM)
+  * [Drive Encryption and LVM](#Drive-Encryption-and-LVM)
   * [Mirrors](#Mirrors)
   * [Install Base System](#Install-Base-System)
   * [Generate Fstab](#Generate-Fstab)
