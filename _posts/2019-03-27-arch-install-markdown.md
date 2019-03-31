@@ -293,11 +293,34 @@ Make sure the boot partition is currently mounted. ```findmnt /boot```
 We have to create an entry for the bootloader in the file ```/boot/loader/entries/arch.conf```
 
 ```# /boot/loader/entries/arch.conf```
+
 ```title   Arch Linux```
+
 ```linux   /vmlinuz-linux```
+
 ```initrd  /initramfs-linux.img```
+
 ```options cryptdevice=/dev/sda2:arch:allow-discards root=/dev/mapper/arch-root rw```
 
+Then run the command ```bootctl install```
+
+#### Reboot Into Install
+
+**NOTE** If you didnt install the networking drivers for wifi on reboot into the new install you will not have wifi access as you did in the live cd **ENDNOTE**
+
+type ```exit``` then ```umount -R /mnt```  check to make sure the drives are volumes are good to go ```cryptsetup close vgcrypt```
+
+You can double check your install to see if the encryption unlocks 
+
+```cryptsetup open /dev/sda2 arch```
+
+```mount /dev/mapper/arch /mnt```
+
+If everything has gone well we can reboot with the command ```reboot```
+
+The bootloader should be presented with the option Arch Linux and 3 seconds before auto booting.
+
+#### Configuring Arch
 
 
 
