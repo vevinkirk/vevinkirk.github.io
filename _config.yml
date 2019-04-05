@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: S33Yah's Blog
+title: S33Yaa's Blog
 
 # Short description of your site
 description: A blog mainly about cyber security and some other things.
@@ -76,7 +76,7 @@ social-network-links:
   rss: true
   email: "kevin@nebulacyber.com"
   github: vevinkirk
-  twitter: S33Yah
+  twitter: S33Yaa
 #  reddit: yourname
 #  google-plus: +DeanAttali
 #  linkedin: daattali
