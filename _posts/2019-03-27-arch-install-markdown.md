@@ -17,29 +17,6 @@ You should always follow the install located at the [Arch wiki](https://wiki.arc
 * TOC
 {:toc}
 
-* [How to Install Arch Linux](#How-to-Install-Arch-Linux)
-  * [Standalone Install](#Standalone-Install)
-  * [Installing Arch](#Installing-Arch)
-  * [Internet Setup](#Internet-Setup)
-  * [System Clock](#System-Clock)
-  * [Disk Partition](#Disk-Partition)
-  * [Drive Encryption and LVM](#Drive-Encryption-and-LVM)
-  * [Mirrors](#Mirrors)
-  * [Install Base System](#Install-Base-System)
-  * [Generate Fstab](#Generate-Fstab)
-  * [Chroot](#Chroot)
-  * [Time Zone](#Time-Zone)
-  * [Localization](#Localization)
-  * [Network Config](#Network-Config)
-  * [Initramfs](#Initramfs)
-  * [Root Passwd](#Root-Passwd)
-  * [Create User](#Create-User)
-  * [Bootloader](#Bootloader)
-  * [Reboot](#Reboot)
-  * [Configuring Arch](#Configuring-Arch)
-  
-
-
 ## Standalone Install
 ### Prep the install media
 Prep the install media anyway you would prefer. I will not go over this in detail as there are many tutorials out there that already cover this. You will need to download the Arch ISO and use a bootable usb or cd if you prefer. 
