@@ -133,9 +133,9 @@ Now mount those partitions
 
 ```mount /dev/mapper/arch-home /mnt/home```
 
-Also boot the mount partition after formatting it to ```ext.2```
+Also boot the mount partition after formatting it to ```Fat32```
 
-```mkfs.ext2 /dev/sda1```
+```mkfs.fat -F32 /dev/sda1```
 
 ```mkdir -p /mnt/boot```
 
