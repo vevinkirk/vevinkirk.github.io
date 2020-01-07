@@ -4,7 +4,7 @@ title: How to Install Arch Linux
 toc: true
 subtitle: Install Arch Linux as a standalone system or dual boot with windows
 tags: [linux,tutorial,install,arch,dual boot,windows,How to]
-comments: false
+comments: true
 ---
 
 Learn how to install Arch Linux on your own computer in either a standalone system or in a dual boot system. Also install some packages and also a windows manager
