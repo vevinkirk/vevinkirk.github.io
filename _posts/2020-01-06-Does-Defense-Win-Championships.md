@@ -2,8 +2,8 @@
 layout: post
 title: Does Defense Win Championships?
 date: 2020-01-2 21:37:00
-file: https://s3-us-west-2.amazonaws.com/kevinblogpictures/LastPickPodcastE1.mp3
-file_itunes: https://s3-us-west-2.amazonaws.com/kevinblogpictures/LastPickPodcastE1.m4a
+file: http://s3-us-west-2.amazonaws.com/kevinblogpictures/LastPickPodcastE1.mp3
+file_itunes: http://s3-us-west-2.amazonaws.com/kevinblogpictures/LastPickPodcastE1.m4a
 excerpt: "Do Defenses Win Championships?"
 summary: "A podcast with my friends discussing if defenses truly win championships"
 duration: "09:33"
