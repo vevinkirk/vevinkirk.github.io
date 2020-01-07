@@ -17,7 +17,12 @@ baseurl: ""
 title: S33Yaa's Blog
 
 # Short description of your site
-description: A blog mainly about cyber security and some other things.
+description: A blog mainly about sports and computers.
+
+email:          lastpickpodcast@gmail.com
+lang:           en
+author:         Kevin Virk
+copyright:      "&#x2117; &amp; &#xA9; 2020"
 
 # --- Navigation bar options --- #
 
