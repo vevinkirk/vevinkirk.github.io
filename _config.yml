@@ -208,7 +208,7 @@ prose:
   ignore:
     - 404.html
     - LICENSE
-    - feed.xml
+    - feed.rss
     - _config.yml
     - /_layouts
     - /_includes
