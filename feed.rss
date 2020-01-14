@@ -17,14 +17,14 @@ layout: null
 		<image>
 			<link>{{ site.url }}</link>
 			<url>http://kevinblogpictures.s3-us-west-2.amazonaws.com/itunes.png</url>
-			<title>{{ site.title }}</title>
+			<title>Last Pick</title>
 		</image>
 		<itunes:subtitle>{{ site.description | xml_escape }}</itunes:subtitle>
 		<itunes:author>{{ site.author }}</itunes:author>
 		<itunes:summary>{{ site.description | xml_escape }}</itunes:summary>
 		<itunes:keywords>{{ site.keywords }}</itunes:keywords>
 		<itunes:owner>
-			<itunes:name>{{ site.author }}</itunes:name>
+			<itunes:name>Last Pick Podcast</itunes:name>
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
 		<itunes:image href="http://kevinblogpictures.s3-us-west-2.amazonaws.com/itunes.png" />
