@@ -11,7 +11,7 @@ length: "71766873"
 explicit: "yes"
 block: "no"
 toc: false
-subtitle: TStartup Tech Talk with Akhil Chandan
+subtitle: Startup Tech Talk with Akhil Chandan
 tags: [podcast,lastpick,tech,startups,code,comedy,business,ces,crypto,options,finance,stocks,javascript,java,python,ruby,html]
 comments: true
 ---
