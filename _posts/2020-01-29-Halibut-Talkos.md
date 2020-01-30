@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Halibut Talkos
-date: 2020-01-28 23:08:00
+date: 2020-01-29 23:08:00
 file: http://s3-us-west-2.amazonaws.com/kevinblogpictures/LastPickPodcastE5.mp3
 file_itunes: http://s3-us-west-2.amazonaws.com/kevinblogpictures/LastPickPodcastE5.m4a
 excerpt: "Halibut Talkos"
