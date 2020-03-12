@@ -11,7 +11,7 @@ length: "24472206"
 explicit: "yes"
 block: "no"
 toc: false
-subtitle: emrgency Corona Pod!!
+subtitle: Emergency Corona Pod!!
 tags: [podcast,lastpick,tech,startups,code,finace,business,realestate]
 comments: true
 ---
