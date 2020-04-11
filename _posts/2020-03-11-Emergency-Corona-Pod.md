@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Emergency Corona Pod!!!
+title: Emergency Corona Pod
 date: 2020-03-11 21:21:00
 file: http://s3-us-west-2.amazonaws.com/kevinblogpictures/LastPickPodcastE8.mp3
 file_itunes: http://s3-us-west-2.amazonaws.com/kevinblogpictures/LastPickPodcastE8.m4a
@@ -11,9 +11,9 @@ length: "24472206"
 explicit: "yes"
 block: "no"
 toc: false
-subtitle: Emergency Corona Pod!!
+subtitle: Emergency Corona Pod
 tags: [podcast,lastpick,tech,startups,code,finace,business,realestate]
 comments: true
 ---
 
-## Emergency Corona Pod!!
+## Emergency Corona Pod
