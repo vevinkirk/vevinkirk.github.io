@@ -6,7 +6,7 @@ file: http://s3-us-west-2.amazonaws.com/kevinblogpictures/LastPickPodcastE9.mp3
 file_itunes: http://s3-us-west-2.amazonaws.com/kevinblogpictures/LastPickPodcastE9.m4a
 excerpt: "Chatting with Akhil & Neet"
 summary: "Chatting with Akhil & Neet"
-duration: "1:10:41
+duration: "1:10:41"
 length: "68859813"
 explicit: "yes"
 block: "no"
