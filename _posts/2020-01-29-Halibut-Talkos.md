@@ -17,3 +17,4 @@ comments: true
 ---
 
 ## Halibut Talkos
+[Link to episode on Spotify](https://open.spotify.com/episode/76svUAy8ZERoaO16raq8X2?si=rA6phoW4TFik_IvW2ralgw)
