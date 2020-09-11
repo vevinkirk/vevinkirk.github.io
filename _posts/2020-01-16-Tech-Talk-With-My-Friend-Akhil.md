@@ -17,4 +17,4 @@ comments: true
 ---
 
 ## Tech Talk With My Friend Akhil
-[Link to Episode on Spotify](https://open.spotify.com/episode/5ZqCKTnFvh4DKY1WWqTIzM?si=qD_v02z_TDOvVLqXbNzKLQ)
+[Link to episode on Spotify](https://open.spotify.com/episode/5ZqCKTnFvh4DKY1WWqTIzM?si=qD_v02z_TDOvVLqXbNzKLQ)
