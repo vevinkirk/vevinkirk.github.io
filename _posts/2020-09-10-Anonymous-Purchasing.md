@@ -17,3 +17,4 @@ comments: true
 ---
 
 ## Anonymous Purchasing
+[Link to episode on Spotify](https://open.spotify.com/episode/2iyYAJe1LTgRPEpB6IYwTJ?si=gQbnIWiHT9KE0hUdFvNCzA)
