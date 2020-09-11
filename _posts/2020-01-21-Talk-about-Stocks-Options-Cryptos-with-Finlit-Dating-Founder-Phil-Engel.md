@@ -17,4 +17,4 @@ comments: true
 ---
 
 ## Talk about Stocks,Options,Cryptos with Finlit Dating Founder Phil Engel
-https://open.spotify.com/episode/5gR3frchIeyzamU3ltEfoI?si=eSAKpsYBToiAtIzqUc-XeQ
+[Link to episode on Spotify](https://open.spotify.com/episode/5gR3frchIeyzamU3ltEfoI?si=eSAKpsYBToiAtIzqUc-XeQ)
