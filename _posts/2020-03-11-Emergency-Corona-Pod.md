@@ -17,3 +17,4 @@ comments: true
 ---
 
 ## Emergency Corona Pod!!
+[Link to episode on Spotify](https://open.spotify.com/episode/4kJRZcqynrUQOjqXM86PoY?si=l749FBijTdenZtGQSQPabw)
