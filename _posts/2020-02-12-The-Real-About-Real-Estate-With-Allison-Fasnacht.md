@@ -17,3 +17,4 @@ comments: true
 ---
 
 ## The Real About Real Estate with Allison Fasnacht
+[Link to episode on Spotify](https://open.spotify.com/episode/4xbkHXqo3Tab99ApXUq4sy?si=IymBowABSGK6PsrRhCRQYw)
