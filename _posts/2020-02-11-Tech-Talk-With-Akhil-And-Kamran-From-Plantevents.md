@@ -17,3 +17,4 @@ comments: true
 ---
 
 ## Tech Talk With Akhil and Kamran From planevents.ca
+[Link to episode on Spotify](https://open.spotify.com/episode/5m1KnS45S5jXkQX96slUGM?si=1rMcDZxITv6izrh0krFxhw)
