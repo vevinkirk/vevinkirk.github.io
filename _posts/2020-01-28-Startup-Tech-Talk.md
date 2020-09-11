@@ -17,3 +17,4 @@ comments: true
 ---
 
 ## Startup Tech Talk with Akhil Chandan
+[Link to episode on Spotify](https://open.spotify.com/episode/5XE5mWuWYzm1SN1nIkCyuC?si=U9-X2LlPSy-zfXnGfX5yIg)
