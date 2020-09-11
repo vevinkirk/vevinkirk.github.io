@@ -17,3 +17,4 @@ comments: true
 ---
 
 ## Politics Pod With Joe
+[Link to episode on Spotify](https://open.spotify.com/episode/4F4pJCrTaqX96rfU5RWqrc?si=RuPxtqQjQoicDHCD15tbEQ)
