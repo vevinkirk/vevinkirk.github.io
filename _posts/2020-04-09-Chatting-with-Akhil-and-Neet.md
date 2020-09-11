@@ -17,3 +17,4 @@ comments: true
 ---
 
 ## Chatting with Akhil and Neet
+[Link to episode on Spotify](https://open.spotify.com/episode/4N30BSDCxYvcslWmTNjyuu?si=4CCSTTbvQtqx1MRdfaabcg)
