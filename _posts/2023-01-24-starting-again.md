@@ -17,4 +17,4 @@ comments: true
 ---
 
 ## Does Defense Win Championships?
-[Link to episode on Spotify]()
+[Link to episode on Spotify](https://open.spotify.com/episode/08uWk9JnY5MB78EjexMJ7Q?si=f45500dd179448a9)
