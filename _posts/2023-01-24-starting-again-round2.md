@@ -2,8 +2,8 @@
 layout: post
 title: Starting Again
 date: 2024-01-08 14:32:00
-file: https://kevinblogpictures.s3.us-west-2.amazonaws.com/LastPickPodcastE13.mp3
-file_itunes: https://kevinblogpictures.s3.us-west-2.amazonaws.com/LastPickPodcastE13.m4a
+file: https://kevinblogpictures.s3.us-west-2.amazonaws.com/LastPickPodcastE14.mp3
+file_itunes: https://kevinblogpictures.s3.us-west-2.amazonaws.com/LastPickPodcastE14.m4a
 excerpt: "Starting Again round 2"
 summary: "Starting again in 2024"
 duration: "00:18"
