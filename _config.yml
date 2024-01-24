@@ -31,11 +31,9 @@ copyright:      "&#x2117; &amp; &#xA9; 2020"
 navbar-links:
   About Me: "aboutme"
   Resources:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
-    - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
+    - LastPick Podcast: "https://open.spotify.com/show/5cgTY667CwvUuMNxZ3rP0L?si=7cf7d39637c3419e"
   Nebula Cyber: "https://nebulacyber.com"
-  Resume: "https://kevin.nebulacyber.com/resume"
+  Flare Tech: "https://flare-tech.info"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -82,7 +80,6 @@ social-network-links:
   rss: true
   email: "kevin@nebulacyber.com"
   github: vevinkirk
-  twitter: S33Yaa
 #  reddit: yourname
 #  google-plus: +DeanAttali
 #  linkedin: daattali
@@ -98,10 +95,6 @@ social-network-links:
 #  yelp: yourname
 
 # Select which share links to show in posts
-share-links-active:
-  twitter: true
-  linkedin: true
-
 # How to display the link to the website in the footer
 # Remove this if you don't want a link in the footer
 url-pretty: "s33yaa.com"  # eg. "deanattali.com/beautiful-jekyll"
